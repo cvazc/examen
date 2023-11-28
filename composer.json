@@ -1,0 +1,20 @@
+{
+    "name": "sebastian/crud",
+    "description": "Proyecto CRUD",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sebastian Contreras",
+            "email": "contreras.sebastian.dev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    }
+}
