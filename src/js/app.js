@@ -110,7 +110,7 @@ $(function () {
 			})
 		} else {
 			$("#alertaCliente").show()
-			$("#alertaCliente").text("Los campos no deben ir vacios")
+			$("#alertaCliente").text("Los campos no deben ir vacios y/o el correo no es válido")
 		}
 	})
 
@@ -121,7 +121,7 @@ $(function () {
 			type: "GET",
 			success: function (response) {
 				let clientes = JSON.parse(response)
-				console.log(response)
+				//console.log(response)
 				let template = ``
 				clientes.forEach((cliente) => {
 					template += `
